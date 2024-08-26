@@ -4,6 +4,7 @@ shuttle_cabin_ready = True
 crew_status = space_suits_on and shuttle_cabin_ready
 computer_status_code = 200
 shuttleSpeed = 15000
+shuttle_speed = 15000
 
 # 3) Write conditional expressions to satisfy the following safety rules:
 
@@ -32,3 +33,4 @@ else:
 
 # print("Yes" or "No") 
 print('No');
+# print("Yes" or "No")
