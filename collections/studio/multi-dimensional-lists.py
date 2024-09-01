@@ -20,11 +20,11 @@ sleep_aids.sort()
 cargo_hold = [food, equipment, pets, sleep_aids]
 print(cargo_hold)
 # c) Query the user to select a cabinet (0 - 3) in the cargo_hold.
-# user_input = int(input("Enter a number from 0 to 3:")) 
+user_input = int(input("Enter a number from 0 to 3:")) 
 
 # d) Use bracket notation and format to display the contents of the selected cabinet. If the user entered an invalid number, print an error message.
-# if user_input <= 3: print(cargo_hold[user_input]) 
-# else: print("Error number not within range, select a number from 0 to 3")
+if user_input <= 3: print(cargo_hold[user_input]) 
+else: print("Error number not within range, select a number from 0 to 3")
 
 
 # e) Modify the code to query the user for BOTH a cabinet in cargo_hold AND a particular item. Use the in method to check if the cabinet contains the selected item, then print “Cabinet ____ DOES/DOES NOT contain ____.”

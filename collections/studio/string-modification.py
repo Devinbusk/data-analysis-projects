@@ -16,5 +16,6 @@ user_input = int(input("Enter the amount of letters to be replaced:"))
 user_word = (my_string[user_input:] + my_string[0:user_input])
 
 # c) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
-if user_input > len(my_string): print(my_string[3:] + my_string[0:3])
+if user_input > len(my_string): print(my_string[3:] + my_string[0:3], "too many charaters") 
+print(user_word)
 
